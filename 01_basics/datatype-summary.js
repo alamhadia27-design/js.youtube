@@ -29,3 +29,31 @@ const rolemodel = ['Hazrat-Muhammad', 'Hazrat-Ali']
 console.log(typeof rolemodel);
 
 console.log(typeof bignum)
+
+/*************** Stack And Heap Memory ***************/
+
+// Stack (Permitive Datatypes)
+
+const valname = "Hadia"
+const anothername = valname
+
+const othername = "Hadiaa"
+
+console.log(valname);
+console.log(othername);
+
+// Heap (Non-Permitive Datatypes)
+
+let myfun=
+{
+    myemail : "Hadia@12",
+    pcode:"1214"
+}
+
+let myfun2 = myfun
+
+myfun2.email = "baloch@12"
+
+console.log(myfun.myemail);
+
+console.log(myfun2.myemail);
