@@ -21,12 +21,43 @@ function sayname(){
 // console.log("Results is = ", result);
 
 
-function addition(num1,num2){
-    let result= num1 + num2
-   // console.log("Hadia");
-    return result
+// function usermsg(username)
+// {
+//     if(!username){
+//         console.log("Please enter a username");
+//         return
+//     }
+//     return `${username} Just Logged In`
+// }
+
+// //console.log(usermsg("HADIA"))
+
+// console.log(loginUsermsg());
+
+
+// function calculateprice(...num1){
+//     return num1
+// }
+
+// console.log(calculateprice(300,400,500));
+
+const user={
+    name:"hadia",
+    id:1
 }
 
-const result =addition(3,4)
+function handelObject(anyobject)
+{
+    console.log(`user is ${anyobject.name} and id is ${anyobject.id}`);
+    
+}
 
-console.log("Results is = ", result);
+handelObject(user)
+
+
+const Array=[200,500,700]
+
+function returnsecval(getarr){
+    return getarr[1]
+}
+console.log(returnsecval(Array));
